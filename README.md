@@ -205,15 +205,6 @@ python test.py            # 5. Commune analysis and charts
  
 > Before running, replace the empty paths `r""` in each file with the path to your `noticias_clean.csv`.
  
----
- 
-## 🔭 Next Steps
- 
-- Use semantic embeddings (**Spanish BERT** — `dccuchile/bert-base-spanish-wwm-cased`) to capture meaning, not just word frequency. An improvement of +10–15 accuracy points is expected.
-- Add the `comuna` column as an additional feature alongside the text to improve classification.
-- Expand the dataset with more months to improve temporal trend predictions.
-- Apply UMAP instead of TruncatedSVD for 2D cluster visualization.
----
  
 ## 👤 Author
  
