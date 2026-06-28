@@ -27,4 +27,4 @@ dfClean = dfClean.drop_duplicates()
 print(f"\nClean dataset shape: {dfClean.shape}")
 
 # Save clean dataset
-dfClean.to_csv(r"C:\Users\joako\Desktop\bd\noticias_clean.csv", index=False)
+dfClean.to_csv(r"", index=False)#-------------------your db
