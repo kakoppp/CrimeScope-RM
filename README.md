@@ -4,6 +4,9 @@ NLP-powered crime news classifier and commune risk analyzer for Chile's Metropol
 # 🔍 CrimeScope-RM — Police News Analyzer, Metropolitan Region of Chile
  
 Machine Learning project applied to crime news from Chile's Metropolitan Region. Automatically classifies the type of crime from a news article's text, and analyzes which communes concentrate the most thefts and which type of robbery predominates in each one.
+
+![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat&logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In%20development-yellow?style=flat)
  
 ---
  
