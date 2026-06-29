@@ -1,7 +1,7 @@
 import pandas as pd
 
 #read
-df = pd.read_csv(r"") #-------------------your db
+df = pd.read_csv(r"C:\Users\joako\Desktop\bd\news.csv") #-------------------your db
 # Initial EDA
 print("--- Data Info ---")
 print(df.info())
@@ -25,6 +25,3 @@ print(dfClean.duplicated().sum())
 dfClean = dfClean.drop_duplicates()
 
 print(f"\nClean dataset shape: {dfClean.shape}")
-
-# Save clean dataset
-dfClean.to_csv(r"", index=False)#-------------------your db
